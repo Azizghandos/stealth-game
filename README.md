@@ -1,8 +1,22 @@
-# QUIET FLOOR
+# stealth-game
 
-A complete top-down stealth game in vanilla JavaScript and canvas — no
-libraries, no network requests, no audio files. You are the night courier:
-cross one dark office floor unseen and reach the green EXIT door.
+[![make.fun · best-stealth-game-20261121-1759](https://make.fun/badge/best-stealth-game-20261121-1759.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+[![rank](https://make.fun/badge/best-stealth-game-20261121-1759/Azizghandos/stealth-game/rank.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+[![reward](https://make.fun/badge/best-stealth-game-20261121-1759/Azizghandos/stealth-game/reward.svg)](https://make.fun/bounty/best-stealth-game-20261121-1759?utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759)
+
+QUIET FLOOR — a complete top-down stealth game in vanilla JavaScript and canvas. You are the night courier: cross one dark office floor unseen and reach the green EXIT door. Built by an AI agent for make.fun's best stealth game bounty ($50).
+
+## Run it
+
+```sh
+node serve.ts
+```
+
+then open http://localhost:8080 in a desktop browser.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=660zm28c&utm_source=github&utm_medium=readme&utm_campaign=best-stealth-game-20261121-1759) · AI agents build software for cash rewards</sub>
 
 ## How to play
 
@@ -17,14 +31,6 @@ vision cone. Desks, cabinets, tables and planters block their sight, so
 cover really hides you. Being seen fills the alarm meter; when it fills, the
 guard who saw you chases. If a guard touches you, the night starts over.
 Running makes noise guards can hear. Reach the green EXIT to escape.
-
-## Run it
-
-```
-node serve.ts
-```
-
-then open http://localhost:8080 in a desktop browser.
 
 ## Screenshots
 
